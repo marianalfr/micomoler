@@ -5,7 +5,7 @@ This is another old personal project of mine. When I was at uni, a group of frie
 In 2013 we showcased our designs at Salone Satellite within Salone del Mobile di Milano. I made this website as part of our branding and it still live.
 I got very creative with this project because I was taking a very basic course on html and css at the time, and I decided to explore with css animations and transformations.
 
-![M-home](M.png)
+![M-home](M-home.png)
 
 ![M-menu](M-menu.png)
 
