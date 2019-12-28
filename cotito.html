@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Micomoler is a design studio based in Madrid, Spain, whose aim is to create beautiful contemporary objects with an eye on tradition and crafts. They are part of WOW design collective, and during last year's Milan Design Week, they won the second prize at Salone Satellite Award.">
+	
+	<title>MICOMOLER///Cotito</title>
+	<!-- external CSS link -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+</head>
+
+<body>
+
+	<div id="preheader">
+		<a href="http://www.facebook.com/pages/Micomoler/233898746725363" target="_blank"><img src="images/micomoler_facebook.png"></a>
+		<a href=href="http://twitter.com/micomoler" target="_blank"><img src="images/micomoler_twitter.png"></a>
+	</div>
+
+	<div id="header">
+		<a href="home.html"><h1>Micomoler Design</h1></a>
+	</div>
+
+	<div class="container cotito">
+
+		<div id="mask">
+		</div>
+
+		<div id= "boxgallery" class="box boxgaldark">
+
+			
+		</div>
+
+		<div class="box boxinfodark">
+			<div class="infotxt">
+				<h2>COTITO</h2>
+				<p>Marble and plywood make this console table a very special piece. Humble and noble, classic and modern. Contrary features mixed together are its essence and beauty.
+				</p>
+			</div>
+		</div>
+
+		<div class="box boxnav">
+			<ul class="menu">
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="works.html">OUR WORK</a></li>
+				<li><a href="exhibitions.html">EXHIBITIONS</a></li>
+				<li><a href="http://micomoler.tictail.com/" target="_blank">SHOP</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+
+	</div>
+	
+
+	<div id="footer">
+		<h2><a  href="about.html">about us</a> · <a  href="works.html">our work</a> · <a  href="exhibitions.html">exhibitions</a> · <a href="http://micomoler.tictail.com/" target="_blank">shop</a> · <a  href="contact.html">contact</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;MICOMOLER · info@micomoler.com · +34 655 109 978 <h2>
+	</div>
+
+<!-- J A V A S C R I P T -->
+
+	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+ 	<script type="text/javascript" src="jquery.fancybox-1.3.4/fancybox/jquery.easing-1.3.pack.js"></script>
+
+	<script type="text/javascript" src="jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+	<script type="text/javascript"> 
+					$(document).ready(function() { 
+					$("#boxgallery").click(function() { 
+					$.fancybox([ 
+					'images/cotito/micomoler_cotito_console_table_01.jpg',
+					'images/cotito/micomoler_cotito_console_table_02.jpg',
+					'images/cotito/micomoler_cotito_console_table_03.jpg',
+					'images/cotito/micomoler_cotito_console_table_04.jpg',
+					], { 
+	 				'type' : 'image',
+					'transitionIn'	:	'fade',
+					'transitionOut'	:	'fade',
+					'speedIn'	:	600, 
+					'speedOut'	:	200, 
+					'overlayShow'	:	true,
+					'overlayOpacity':	0.3,
+					'autoDimensions':	true,
+					
+					}); // closes fancybox 
+					}); // closes click 
+					}); // closes ready 
+					</script>
+
+</body>
+</html>

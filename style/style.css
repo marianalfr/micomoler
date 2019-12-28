@@ -1,0 +1,801 @@
+@font-face
+{
+font-family: Unna;
+src: url('Unna-Regular.otf'); url('Unna-Regular.eot'); /* IE9 */
+}
+
+@font-face
+{
+font-family: Ostrich;
+src: url('ostrich-black-webfont.ttf'); 
+src: url('ostrich-black-webfont.eot'); /* IE9 */
+src: url('ostrich-black-webfont.woff');
+}
+
+
+a:link {color:black; text-decoration:none;}      /* unvisited link */
+a:visited {color:black; text-decoration:none;}  /* visited link */
+a:hover {color:#8e8e8e; text-decoration:none;}  /* mouse over link */
+a:active {color:black; text-decoration:none;}  /* selected link */
+
+.title a:link {color:#fff; text-decoration:none;}      /* unvisited link */
+.title a:visited {color:#fff; text-decoration:none;}  /* visited link */
+.title a:hover {color:#8e8e8e; text-decoration:none;}  /* mouse over link */
+.title a:active {color:#fff; text-decoration:none;}  /* selected link */
+
+#footer a:link {color:#E6E1E2; text-decoration:none; letter-spacing: 2px; }      /* unvisited link */
+#footer a:visited {color:#E6E1E2; text-decoration:none;letter-spacing: 2px; }  /* visited link */
+#footer a:hover {color:#8e8e8e; text-decoration:none;letter-spacing: 2px; }  /* mouse over link */
+#footer a:active {color:#E6E1E2; text-decoration:none;letter-spacing: 2px; }  /* selected link */
+
+html, body{
+	margin-bottom: 0px;
+	background: #fdfdfd;
+	background-attachment:fixed;
+}
+
+h1{
+	font-family: Ostrich, serif;
+	font-size: 50px;
+	color: #474643;
+	line-height: 60px; /* IE 9 and below */
+}
+
+
+h2{
+	font-size: 13px;
+}
+
+h3{
+	font-weight: normal;
+}
+
+li{
+	list-style: none;
+}
+
+.ostrich{
+	font-family: Ostrich, serif;
+	font-weight: normal;
+
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////// I N D E X */
+
+#preheader{
+	display: inline-block;
+	position: fixed;
+	top: 0px;
+	left: 70%;
+	height: 30px;
+	letter-spacing: -4px;
+	clear: both;
+	padding-top: 0px;
+}
+
+
+#headerindex{
+	position: relative;
+	width: 152px;
+	height: 176px;
+	background: url(../images/micomoler_logo.png) no-repeat;
+	top:-21px;
+	margin-left: auto;
+	margin-right: auto;
+	text-indent: -5000px;
+	z-index: 1;
+}
+
+#headerindex:hover{
+	cursor: pointer;
+}
+
+#promo{
+	width: 335px;
+	height: 474px;
+	background: url(../images/micomoler_milan_salone_satellite.gif) no-repeat;
+	position:relative;
+	top:-200px;
+	text-indent: -5000px;
+	padding-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#globalcontainer{
+	width: 670px;
+	height: 300px;
+	position: relative;
+	top: 143px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#container1{
+	margin-top: -110px;
+	clear: both;
+}
+
+
+.box{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	/*box-shadow: 2px 2px 12px #cfcfcf;*/
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+.a1{
+	background: url(../images/micomoler_a1.png);
+	top:0px;
+	left:0px;
+	z-index: 3;
+	text-align: center;
+	overflow: hidden;
+}
+
+.a1:hover, .a1:active, 
+.b1:hover, .b1:active,
+.b2:hover, .b2:active,
+.c3:hover, .c3:active,
+.email:hover, .email:active,
+.boxpop:hover, .boxpop:active,
+.macef:hover, .macef:active,
+.matadero:hover, .matadero:active,
+.satellite2013:hover, .satellite2013:active,
+.homeless:hover, .homeless:active,
+.whataboutinterior:hover, .whataboutinterior:active,
+.handinhand:hover, .handinhand:active,
+.fundesarte:hover, .fundesarte:active,
+.satellite2012:hover, .satellite2012:active 
+ {
+	-webkit-transform: scale(2);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transform: scale(2);
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transform: scale(2);
+	-o-transition: all 0.4s ease-in-out;
+	z-index: 9;
+	background: rgba(240,240,240,0.9);
+	cursor: pointer;
+}
+
+.a1:hover .infotxt, .a1:active .infotxt,
+.b1:hover .infotxt, .b1:active .infotxt,
+.b2:hover .infotxt, .b2:active .infotxt,
+.c3:hover .infotxt, .c3:active .infotxt,
+.email:hover .infotxt, .email:active .infotxt,
+.boxpop:hover .infotxt, .boxpop:active .infotxt,
+.macef:hover .infotxt, .macef:active .infotxt,
+.matadero:hover .infotxt, .matadero:active .infotxt,
+.satellite2013:hover .infotxt, .satellite2013:active .infotxt,
+.homeless:hover .infotxt, .homeless:active .infotxt,
+.whataboutinterior:hover .infotxt, .whataboutinterior:active .infotxt,
+.handinhand:hover .infotxt, .handinhand:active .infotxt,
+.fundesarte:hover .infotxt, .fundesarte:active .infotxt,
+.satellite2012:hover .infotxt, .satellite2012:active .infotxt    {
+	-webkit-transform: scale(0.9);
+	opacity: 1;
+}
+
+.a1:hover .infotxt h2, .a1:active .infotxt h3,
+.b1:hover .infotxt h2, .b1:active .infotxt h3,
+.b2:hover .infotxt h2, .b2:active .infotxt h3,
+.c3:hover .infotxt h2, .c3:active .infotxt h3,
+.email:hover .infotxt h2, .email:active .infotxt h3,
+.boxpop:hover .infotxt h2, .boxpop .infotxt h2,
+.macef:hover .infotxt h2, .macef .infotxt h2,
+.matadero:hover .infotxt h2, .matadero .infotxt h2,
+.satellite2013:hover .infotxt h2, .satellite2013:active .infotxt h2,
+.homeless:hover .infotxt h2, .homeless:active .infotxt h2,
+.whataboutinterior:hover .infotxt h2, .whataboutinterior:active .infotxt h2,
+.handinhand:hover .infotxt h2, .handinhand:active .infotxt h2,
+.fundesarte:hover .infotxt h2, .fundesarte:active .infotxt h2,
+.satellite2012:hover .infotxt h2, .satellite2012:active .infotxt h2{
+	opacity: 1;
+}
+
+.a1:hover .infotxt p, .a1:active .infotxt p,
+.b1:hover .infotxt p, .b1:active .infotxt p,
+.b2:hover .infotxt p, .b2:active .infotxt p,
+.c3:hover .infotxt p, .c3:active .infotxt p,
+.email:hover .infotxt p, .email:active .infotxt p,
+.matadero:hover .infotxt p, .matadero:active .infotxt p,
+.boxpop:hover .infotxt p, .boxpop:active .infotxt p,
+.macef:hover .infotxt p, .macef:active .infotxt p,
+.satellite2013:hover .infotxt p, .satellite2013:active .infotxt p,
+.homeless:hover .infotxt p, .homeless:active .infotxt p,
+.whataboutinterior:hover .infotxt p, .whataboutinterior:active .infotxt p,
+.handinhand:hover .infotxt p, .handinhand:active .infotxt p,
+.fundesarte:hover .infotxt p, .fundesarte:active .infotxt p,
+.satellite2012:hover .infotxt p, .satellite2012:active .infotxt p{
+	opacity: 1;
+}
+
+.b1{
+	background: url(../images/micomoler_b1.png);
+}
+
+.c1{
+	background: url(../images/micomoler_c1.png);
+}
+
+.d1{
+	background: url(../images/micomoler_d1.png);
+}
+
+#container2{
+	top: -32px;
+	position: relative;
+	left: 77px;
+}
+.a2{
+	background: url(../images/micomoler_a2.png);
+}
+
+.b2{
+	background:  url(../images/micomoler_b2.png)
+}
+
+.c2{
+	background: url(../images/micomoler_c2.png);
+}
+
+#container3{
+	position:relative;
+	width: 670px;
+	top:-65px;
+	left:0px;
+	clear: both;
+}
+
+.a3{
+	background: url(../images/micomoler_a3.png);
+}
+
+
+.b3{
+	background: url(../images/micomoler_b3.png);
+}
+
+.c3{
+	background: url(../images/micomoler_c3.png);
+	left:0px;
+	z-index: 3;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+.d3{ /*NAVEGADOR*/
+	background: black;
+}
+
+
+
+.title{
+	height: inherit;
+	width: inherit;
+	font-family: Ostrich;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	opacity: 0;
+	position:relative;
+	left:0px;
+	top:-12px;
+	letter-spacing: 2px;
+}
+
+.box:hover .title{
+	background: rgba(0,0,0,0.8);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.box h3 {
+	position: relative;
+	top:45px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+
+}
+
+
+
+#footer{
+	width: 100%;
+	height: 30px;
+	background: #000;
+	color: #ccc;
+	position: fixed;
+	bottom:0px;
+	left: 0px;
+	text-align: center;
+	padding: 0px;
+	z-index: 10;
+}
+
+#footer h2{
+	font-size: 10px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////// A B O U T */
+
+.about{
+	background: #b5ede0;
+}
+
+.abouttext{
+	width: 850px;
+	font-size: 12px;
+	color:#424242;
+	position: relative;
+	top: -320px;
+	left: -250px;
+	margin: 0 auto;
+}
+
+.boxabout{
+	background:url(../images/micomoler.gif);
+	top:-370px;
+	left:53px;
+	z-index: 3;
+	text-indent: -1000px;
+}
+
+.boxnavabout{
+	background:black;
+	top:-320px;
+	left:363px;
+	z-index: 5;
+}
+
+.boxnavabout .menu h3{
+	font-size: 15px;
+
+}
+
+.boxnavabout:active .menu, .d3:active .menu, .boxnavabout:hover .menu, .d3:hover .menu {
+	display:block;
+	font-size: 15px;
+	text-align: right;
+	position: relative;
+	top:-133px;
+	left:0px;
+	z-index: -10;
+	cursor: pointer;
+	-webkit-animation-name: slide;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: slide;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-name: slide;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count:1;
+    -o-animation-fill-mode: forwards;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////// C O N T E N T  P R O J E C T */
+
+
+#header{
+	position: relative;
+	width: 152px;
+	height: 176px;
+	top:5px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+
+#header a{
+	height:176px;
+	width:152px;
+	display:inline-block;
+	background: url(../images/micomoler_logo.png) no-repeat;
+	text-indent: -5000px;
+}
+
+#header:hover{
+	cursor: pointer;
+}
+
+.container{
+	width: 774px;
+	height: 472px;
+	margin: 0 auto;
+	top:-45px;
+	position: relative;
+	text-align: center;
+}
+
+#mask{
+	width: 776px;
+	height: 473px;
+	background: url(../images/maskarita.png);
+	z-index: 1;
+	position: relative;
+	left: -2px;
+	top: -1px;
+}
+
+.boxnav{
+	background:black;
+	top:-214px;
+	left:209px;
+	z-index: 5;
+}
+
+.boxinfo{
+	background:url(../images/bckginfo.png);
+	top:-292px;
+	left:287px;
+	z-index: 3;
+	text-align: center;
+	overflow: hidden;
+}
+
+.boxinfodark{
+	background:url(../images/bckginfo_dark.png);
+	top:-292px;
+	left:287px;
+	z-index: 3;
+	text-align: center;
+	overflow: hidden;
+}
+
+.boxinfo:hover, .boxinfo:active, .boxinfodark:hover, .boxinfodark:active{
+	-webkit-transform: scale(2);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transform: scale(2);
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transform: scale(2);
+	-o-transition: all 0.4s ease-in-out;
+	z-index: 9;
+	background: rgba(240,240,240,0.9);
+	cursor: pointer;
+}
+
+.boxinfo:hover .infotxt, .boxinfo:active .infotxt, .boxinfodark:hover .infotxt, .boxinfodark:active .infotxt{
+	-webkit-transform: scale(0.9);
+	opacity: 1;
+}
+
+.boxinfo:hover .infotxt h2, .boxinfo:active .infotxt h3, .boxinfodark:hover .infotxt h2, .boxinfodark:active .infotxt h3{;
+	opacity: 1;
+}
+
+.boxinfo:hover .infotxt p, .boxinfo:active .infotxt p, .boxinfodark:hover .infotxt p, .boxinfodark:active .infotxt p{;
+	opacity: 1;
+}
+
+.infotxt{
+	text-align: center;
+	-webkit-transition: all 1s ease-in 0.6s ease-out 0s;
+    -moz-transition: all 1s ease-in-out 0.4s;
+    -moz-transform: scale(0.8);
+    width: 90px;
+    margin: 0 auto;
+    height: inherit;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0);
+}
+
+.infotxt h2{
+	font-family: Ostrich;
+	font-weight: normal;
+	font-size: 10px;
+	opacity: 0;
+	letter-spacing: 2px;
+	color:#2b2b2b;
+}
+
+.infotxt p{
+	font-family: Unna;
+	font-size: 8px;
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	opacity: 0;
+	color:#424242;
+}
+
+.boxgal{
+	background:url(../images/bckggal.png);
+	top:-370px;
+	left:520px;
+	z-index: 3;
+	text-indent: -1000px;
+}
+
+.boxgal:hover, .boxgal:active, .boxgaldark:hover, .boxgaldark:active{
+	cursor: pointer;
+}
+
+.boxgaldark{
+	background:url(../images/bckggal_dark.png);
+	top:-370px;
+	left:520px;
+	z-index: 3;
+	text-indent: -1000px;
+}
+
+.menu{
+	display:none;
+	font-family: Ostrich;
+	line-height: 24px;
+	z-index: -10;
+}
+
+.boxnav .menu h3{
+	font-size: 15px;
+
+}
+
+.boxnav:active .menu, .d3:active .menu, .boxnav:hover .menu, .d3:hover .menu {
+	display:block;
+	font-size: 15px;
+	text-align: right;
+	position: relative;
+	top:-133px;
+	left:0px;
+	z-index: -10;
+	cursor: pointer;
+	-webkit-animation-name: slide;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: slide;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-name: slide;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count:1;
+    -o-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes slide {
+	0% {
+	top:-20px;
+	left:0px; 
+	z-index: -10;
+    }
+
+    100% {
+	top:-133px;
+	left:0px;
+	z-index: -10;
+    }
+}
+
+@-moz-keyframes slide{ /* Firefox */
+	0% {
+	top:-20px;
+	left:0px; 
+	z-index: -10;
+    }
+
+    100% {
+	top:-133px;
+	left:0px;
+	z-index: -10;
+    }
+} 
+
+@-o-keyframes myfirst{  /* Opera */
+	0% {
+	top:-20px;
+	left:0px; 
+	z-index: -10;
+    }
+
+    100% {
+	top:-133px;
+	left:0px;
+	z-index: -10;
+    }
+}
+
+
+
+/*///////////////////////////////////////////////////I N D E X    O F   P R O J E C T S */
+
+.boxthumi{
+	background: url(../images/thumi/micomoler_thumi_stool_thmb.png);
+}
+
+.boxduler{
+	background: url(../images/duler/micomoler_duler_chair_thmb.png);
+}
+
+.boxcotito{
+	background: url(../images/cotito/micomoler_cotito_console_table_thmb.png);
+}
+
+.boxkali{
+	background: url(../images/kali/micomoler_kali_lamp_thmb.png);
+}
+
+.boxufo{
+	background: url(../images/ufo/micomoler_ufo_lamp_thmb.png);
+}
+
+.boxquinque{
+	background: url(../images/quinque/micomoler_quinque_lamp_thmb.png);
+}
+
+.boxpalo{
+	background: url(../images/palo/micomoler_palo_lamp_thmb.png);
+}
+
+.boxflorencio{
+	background: url(../images/florencio/micomoler_florencio_thmb.png);
+}
+
+.boxpaperseed{
+	background: url(../images/paperseed/micomoler_paperseed_thmb.png);
+}
+
+.boxbanquete{
+	background: url(../images/banquete/micomoler_banquete_bench_table_thmb.png);
+}
+
+.boxbotijo{
+	background: url(../images/botijo/micomoler_botijo_thmb.png);
+}
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////// E A C H  P R O J E C T */
+
+.thumi{
+	background: url(../images/thumi/micomoler_thumi_stool_background.png);
+}
+
+.duler{
+	background: url(../images/duler/micomoler_duler_chair_background.png);
+}
+
+.cotito{
+	background: url(../images/cotito/micomoler_cotito_console_table_background.png);
+}
+
+.kali{
+	background: url(../images/kali/micomoler_kali_lamp_background.png);
+}
+
+.ufo{
+	background: url(../images/ufo/micomoler_ufo_lamp_background.png);
+}
+
+.quinque{
+	background: url(../images/quinque/micomoler_quinque_lamp_background.png);
+}
+
+.palo{
+	background: url(../images/palo/micomoler_palo_lamp_background.png);
+}
+
+.florencio{
+	background: url(../images/florencio/micomoler_florencio_background.png);
+}
+
+.paperseed{
+	background: url(../images/paperseed/micomoler_paperseed_background.png);
+}
+
+.banquete{
+	background: url(../images/banquete/micomoler_banquete_bench_table_background.png);
+}
+
+
+
+.botijo{
+	background: url(../images/botijo/micomoler_botijo_background.png);
+}
+
+
+
+/*/////////////////////////////////////////////////////////////// E X H I B I T I O N S */
+
+.boxpop{
+	background: url(../images/exhibitions/micomoler_boxpop_thmb.png);
+}
+
+.macef{
+	background: url(../images/exhibitions/micomoler_macef_thmb.png);
+}
+
+.matadero{
+	background: url(../images/exhibitions/micomoler_matadero_thmb.png);
+}
+
+.satellite2013{
+	background: url(../images/exhibitions/micomoler_milan_salone_satellite_2013_thmb.png);
+}
+
+.homeless{
+	background: url(../images/exhibitions/micomoler_homeless_design_thmb.png);
+}
+
+.whataboutinterior{
+	background: url(../images/exhibitions/micomoler_what_about_interior_thmb.png);
+}
+
+.handinhand{
+	background: url(../images/exhibitions/micomoler_hand_in_hand_thmb.png);
+}
+
+.fundesarte{
+	background: url(../images/exhibitions/micomoler_fundesarte_thmb.png);
+}
+
+.satellite2012{
+	background: url(../images/exhibitions/micomoler_milan_salone_satellite_2012_thmb.png);
+}
+
+.emptyexhibition{
+	background: url(../images/exhibitions/micomoler_empty_exhibition.png);
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////// C O N T A C T */
+
+.emptybox{
+	background: #b5ede0;
+}
+
+.email{
+	background: url(../images/micomoler_contact_email.png);
+}
+
+.facebook{
+	background: url(../images/micomoler_contact_facebook.png);
+}
+
+.twitter{
+	background: url(../images/micomoler_contact_twitter.png);
+}
+
+#globalcontainercontact{
+	width: 670px;
+	height: 300px;
+	position: relative;
+	top: 169px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
